@@ -65,7 +65,7 @@ jobs:
   test-image:
     docker:
       - image: circleci/node:6.10.3
-      - image: plotly/testbed:candidate
+      - image: plotly/testbed:image-exporter
     working_directory: ~/repo
     steps:
       - checkout
